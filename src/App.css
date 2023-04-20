@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2F24927669%40N03%2F2531824645%2F&psig=AOvVaw092rdDxiRq4ztw7UNYmJMd&ust=1681704130594000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCODEtqjCrf4CFQAAAAAdAAAAABAD);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  font-family: 'Times New Roman';
+  background: #def012;
+  font-style: oblique;
+  background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2F24927669%40N03%2F2531824645%2F&psig=AOvVaw092rdDxiRq4ztw7UNYmJMd&ust=1681704130594000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCODEtqjCrf4CFQAAAAAdAAAAABAD);
+}
+
+#quote-box {
+  background: #f5a4a4;
+  width: 40rem;
+  margin: 5rem auto;
+  padding: 4rem;
+  border-radius: 7px;
+  text-align: left;
+}
+
+#text {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+#author {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.4rem;
+  font-style: normal;
+}
+
+#buttons {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  font-style: normal;
+}
+
+#new-quote {
+  background: #56ee1f;
+  border: none;
+  color: #1b1e2e;
+  padding: .7rem 1rem;
+  font-size: medium;
+  font-weight: bolder;
+  font-family: 'Times New Roman';
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+  font-style: normal;
+}
+
+#new-quote:hover {
+  opacity: 0.9;
+}
+
+
+
+
+
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
